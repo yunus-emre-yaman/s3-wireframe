@@ -1,96 +1,96 @@
 {
   "stats": {
-    "expected": 2,
-    "unexpected": 15,
+    "expected": 6,
+    "unexpected": 11,
     "skipped": 0,
     "flaky": 0,
-    "duration": 954
+    "duration": 907
   },
   "tests": [
     {
       "title": "#header genişliği doğru olmalı",
       "status": "failed",
-      "duration": 57
+      "duration": 70
     },
     {
       "title": "#header yatay hizalaması doğru olmalı",
-      "status": "failed",
-      "duration": 57
+      "status": "passed",
+      "duration": 53
     },
     {
       "title": "#header başlığı ve menü iki yana yaslı olmalı",
-      "status": "failed",
-      "duration": 57
+      "status": "passed",
+      "duration": 18
     },
     {
       "title": "#header içeriği dikey olarak ortalanmalı",
-      "status": "failed",
-      "duration": 49
+      "status": "passed",
+      "duration": 14
     },
     {
       "title": "#menu esnek bir düzen kullanmalı",
       "status": "failed",
-      "duration": 49
+      "duration": 16
     },
     {
       "title": "#menu bir NAV tagi olmalı",
       "status": "passed",
-      "duration": 52
+      "duration": 60
     },
     {
       "title": "#menu linklerinin arka plan rengi doğru olmalı",
       "status": "failed",
-      "duration": 22
+      "duration": 28
     },
     {
       "title": "#menu linklerinin arka plan rengi üzerine gelindiğinde değişmeli",
       "status": "failed",
-      "duration": 118
+      "duration": 108
     },
     {
       "title": "#menu bağlantılarının iç boşluğu doğru olmalı",
       "status": "failed",
-      "duration": 106
+      "duration": 107
     },
     {
       "title": "#hero display özelliği doğru olmalı",
       "status": "failed",
-      "duration": 54
+      "duration": 60
     },
     {
       "title": "#hero içeriği dikey olarak sıralı olmalı",
       "status": "failed",
-      "duration": 59
+      "duration": 70
     },
     {
       "title": "#hero içeriği yatay ve dikey olarak ortalanmalı",
       "status": "failed",
-      "duration": 48
+      "duration": 61
     },
     {
       "title": "#hero içeriği dikey olarak ortalanmalı",
       "status": "failed",
-      "duration": 47
+      "duration": 70
     },
     {
       "title": "#gallery genişliği doğru olmalı",
       "status": "failed",
-      "duration": 48
+      "duration": 58
     },
     {
       "title": "#gallery display değeri doğru olmalı",
-      "status": "failed",
-      "duration": 51
+      "status": "passed",
+      "duration": 60
     },
     {
       "title": "#gallery ögeleri arasında eşit mesafe olmalı",
       "status": "failed",
-      "duration": 51
+      "duration": 19
     },
     {
       "title": "#footer butonu doğru metni içermeli",
       "status": "passed",
-      "duration": 30
+      "duration": 36
     }
   ]
 }
