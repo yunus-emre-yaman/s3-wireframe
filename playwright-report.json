@@ -1,96 +1,96 @@
 {
   "stats": {
-    "expected": 6,
-    "unexpected": 11,
+    "expected": 17,
+    "unexpected": 0,
     "skipped": 0,
     "flaky": 0,
-    "duration": 907
+    "duration": 413
   },
   "tests": [
     {
       "title": "#header genişliği doğru olmalı",
-      "status": "failed",
-      "duration": 70
+      "status": "passed",
+      "duration": 84
     },
     {
       "title": "#header yatay hizalaması doğru olmalı",
       "status": "passed",
-      "duration": 53
+      "duration": 21
     },
     {
       "title": "#header başlığı ve menü iki yana yaslı olmalı",
       "status": "passed",
-      "duration": 18
+      "duration": 19
     },
     {
       "title": "#header içeriği dikey olarak ortalanmalı",
       "status": "passed",
-      "duration": 14
+      "duration": 17
     },
     {
       "title": "#menu esnek bir düzen kullanmalı",
-      "status": "failed",
-      "duration": 16
+      "status": "passed",
+      "duration": 22
     },
     {
       "title": "#menu bir NAV tagi olmalı",
       "status": "passed",
-      "duration": 60
+      "duration": 15
     },
     {
       "title": "#menu linklerinin arka plan rengi doğru olmalı",
-      "status": "failed",
-      "duration": 28
+      "status": "passed",
+      "duration": 19
     },
     {
       "title": "#menu linklerinin arka plan rengi üzerine gelindiğinde değişmeli",
-      "status": "failed",
-      "duration": 108
+      "status": "passed",
+      "duration": 53
     },
     {
       "title": "#menu bağlantılarının iç boşluğu doğru olmalı",
-      "status": "failed",
-      "duration": 107
+      "status": "passed",
+      "duration": 51
     },
     {
       "title": "#hero display özelliği doğru olmalı",
-      "status": "failed",
-      "duration": 60
+      "status": "passed",
+      "duration": 20
     },
     {
       "title": "#hero içeriği dikey olarak sıralı olmalı",
-      "status": "failed",
-      "duration": 70
+      "status": "passed",
+      "duration": 14
     },
     {
       "title": "#hero içeriği yatay ve dikey olarak ortalanmalı",
-      "status": "failed",
-      "duration": 61
+      "status": "passed",
+      "duration": 12
     },
     {
       "title": "#hero içeriği dikey olarak ortalanmalı",
-      "status": "failed",
-      "duration": 70
+      "status": "passed",
+      "duration": 12
     },
     {
       "title": "#gallery genişliği doğru olmalı",
-      "status": "failed",
-      "duration": 58
+      "status": "passed",
+      "duration": 12
     },
     {
       "title": "#gallery display değeri doğru olmalı",
       "status": "passed",
-      "duration": 60
+      "duration": 14
     },
     {
       "title": "#gallery ögeleri arasında eşit mesafe olmalı",
-      "status": "failed",
-      "duration": 19
+      "status": "passed",
+      "duration": 20
     },
     {
       "title": "#footer butonu doğru metni içermeli",
       "status": "passed",
-      "duration": 36
+      "duration": 9
     }
   ]
 }

@@ -12,20 +12,27 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: white;
+  width: 750px;
+  background-color: #ffffff;
 }
 
+
 #header {
+  width: 750px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em 0;
+}
+
+
+#menu {
+  display: flex;
 }
 
 #menu ul {
@@ -38,13 +45,23 @@ body {
 
 #menu a {
   text-decoration: none;
-  background-color: #444;
+  background-color: #777;
   color: white;
-  padding: 0.5em 1em;
+  padding: 20px;
   border-radius: 4px;
 }
 
+#menu a:hover {
+  background-color: #000;
+}
+
+
 #hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
   background-color: #777;
   color: white;
   padding: 3em 1em;
@@ -52,25 +69,21 @@ body {
   text-align: center;
 }
 
-#hero h2 {
-  margin-bottom: 0.5em;
-}
 
 #gallery {
+  width: 750px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 2em;
   padding: 2em 0;
 }
 
 .course {
-  width: 240px;
+  width: 220px;
   text-align: center;
 }
 
 .course img {
-  display: block;
   width: 100%;
   height: 180px;
   object-fit: cover;
@@ -85,7 +98,9 @@ body {
   text-overflow: ellipsis;
 }
 
+
 #footer {
+  width: 750px;
   background-color: #777;
   padding: 2em 1em;
   margin-top: 2em;
@@ -93,5 +108,10 @@ body {
 }
 
 #footer button {
-  padding: 0.5
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
